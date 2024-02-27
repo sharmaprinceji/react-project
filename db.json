@@ -41,6 +41,12 @@
       "name": "karan kappor",
       "email": "karan04@gmail.com",
       "password": "karan9"
+    },
+    {
+      "id": "9129",
+      "name": "fiha kurasi",
+      "email": "fiha@gmail.com",
+      "password": "12345"
     }
   ],
   "posts": [
@@ -105,6 +111,14 @@
       "color": "green",
       "weight": "100g",
       "id": "51bf"
+    },
+    {
+      "id": "16dc",
+      "name": "topi",
+      "price": "100",
+      "color": "white",
+      "weight": "100g",
+      "by": "fiha"
     }
   ]
 }
