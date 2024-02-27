@@ -47,6 +47,12 @@
       "name": "fiha kurasi",
       "email": "fiha@gmail.com",
       "password": "12345"
+    },
+    {
+      "id": "cee7",
+      "name": "",
+      "email": "",
+      "password": ""
     }
   ],
   "posts": [
@@ -57,14 +63,6 @@
     }
   ],
   "product": [
-    {
-      "id": "7a26",
-      "name": "one piece",
-      "price": "1200",
-      "color": "black",
-      "weight": "100g",
-      "by": "peter"
-    },
     {
       "name": "mobile",
       "price": "1200",
@@ -110,15 +108,8 @@
       "price": "1201",
       "color": "green",
       "weight": "100g",
+      "by": "sam",
       "id": "51bf"
-    },
-    {
-      "id": "16dc",
-      "name": "topi",
-      "price": "100",
-      "color": "white",
-      "weight": "100g",
-      "by": "fiha"
     }
   ]
 }
