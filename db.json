@@ -43,6 +43,7 @@
       "password": "karan9"
     },
     {
+<<<<<<< HEAD
       "id": "6310",
       "name": "shubham sahu ",
       "email": "shubham@wyr.ai",
@@ -53,6 +54,18 @@
       "name": "Ashish lal kumar",
       "email": "ashish@wyr.ai",
       "password": "12345"
+=======
+      "id": "9129",
+      "name": "fiha kurasi",
+      "email": "fiha@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "cee7",
+      "name": "",
+      "email": "",
+      "password": ""
+>>>>>>> f41181134d830647ae159a1a84e4535f4bf998ce
     }
   ],
   "posts": [
@@ -151,6 +164,7 @@
       "color": "grey",
       "weight": "5gm",
       "by": "shweta"
-    }
+
+  
   ]
 }
