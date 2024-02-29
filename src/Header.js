@@ -242,6 +242,16 @@ export function Header() {
           <li>
             <a href="/product">Product</a>
           </li>
+          <li className="dropdown">
+            <select onChange={(e) => handleFeatureClick(e.target.value)} className='feature'>
+              <option  value="">Features</option>
+              <option  value="about">About</option>
+              <option  value="add">Add Product</option>
+              <option  value="product">Product</option>
+              <option value="users">Users</option>
+              <option  value="other">Other</option>
+            </select>
+          </li>
           {
             localStorage.getItem('user-name') ? (
               <>
