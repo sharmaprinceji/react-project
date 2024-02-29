@@ -2,7 +2,7 @@
   "user": [
     {
       "id": "9813",
-      "name": "prince sharma",
+      "name": "prince sharma1",
       "email": "princesh1411@gmail.com",
       "password": "12345"
     },
@@ -53,6 +53,12 @@
       "name": "shubham sahu ",
       "email": "shubham@wyr.ai",
       "password": "12345"
+    },
+    {
+      "id": "0975",
+      "name": "Rocky ",
+      "email": "rocky@20",
+      "password": "12345"
     }
   ],
   "posts": [
@@ -64,20 +70,11 @@
   ],
   "product": [
     {
-      "name": "mobile",
-      "price": "1200",
-      "color": "yellow",
-      "weight": "501g",
-      "by": "peter",
-      "id": "f017"
-    },
-    {
       "name": "iphone",
       "price": "90000",
       "color": "golden",
       "weight": "550g",
-      "id": "5305",
-      "by": "prince"
+      "id": "5305"
     },
     {
       "name": "tshirt",
@@ -108,14 +105,6 @@
       "color": "color",
       "weight": "5kg",
       "by": "prince"
-    },
-    {
-      "id": "9abf",
-      "name": "Snaks",
-      "price": "200",
-      "color": "choclate",
-      "weight": "500g",
-      "by": "karan"
     },
     {
       "name": "Bag",
@@ -153,6 +142,26 @@
       "color": "black",
       "weight": "10kg",
       "id": "8d39"
+    },
+    {
+      "id": "7da2",
+      "name": "pen",
+      "price": "4",
+      "color": "red",
+      "weight": "5gm",
+      "by": "prince"
+    },
+    {
+      "id": "1a01",
+      "name": "pencil",
+      "price": "4",
+      "color": "grey",
+      "weight": "5gm",
+      "by": "shweta"
+    },
+    {
+      "id": "38ed",
+      "by": "shweta"
     }
   ]
 }

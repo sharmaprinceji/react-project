@@ -1,5 +1,5 @@
 import { Header } from "./Header";
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react"; //qs
 import { useNavigate } from 'react-router-dom';
 
 export function Product() {

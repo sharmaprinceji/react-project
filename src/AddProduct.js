@@ -11,7 +11,7 @@ export function AddProduct(){
     const change=useNavigate();
 
     useEffect(()=>{
-      // if(!localStorage.getItem('user-name')){
+      // if(!localStorage.getItem('user-name')){   qs
       //   change('/login');
       // }
     },[]);
@@ -29,7 +29,7 @@ export function AddProduct(){
                 price: price,
                 color: color,
                 weight:weight,
-                by:localStorage.getItem('user-name').split(' ')[0],
+                by:localStorage.getItem('user-name').split(' ')[0], // qs
               }),
             });
       
@@ -39,7 +39,7 @@ export function AddProduct(){
       
             const data = await response.json();
             console.log('Registration Successful:', data);
-            change('/product'); 
+            change('/product');  //qs
             //navigate('/login'); 
           } catch (error) {
             console.error('Registration Error:', error);

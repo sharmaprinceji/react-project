@@ -86,6 +86,12 @@ export function Header() {
     const fname = name.split(' ')[0];
     return fname.charAt(0).toUpperCase();
   }
+  function handleAbout() {
+    navigate('/about'); 
+  }
+   function handleAddProduct() {
+    navigate('/AddProduct');
+   }
 
   return (
     <>
@@ -118,6 +124,20 @@ export function Header() {
           </li>
           <li>
             <a href="/product">Product</a>
+          </li>
+          <li>
+            
+            <select className='Features' style={{backgroundColor :"#004687",color: 'white'}}>
+
+              <option  className='add'onClick={handleAddProduct}>Add Product</option>
+              <option>Product</option>
+              <option>Others</option>
+              <option>Features</option>
+
+
+
+
+            </select>
           </li>
           {
             localStorage.getItem('user-name') ? (
