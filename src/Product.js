@@ -61,11 +61,11 @@ export function Product() {
       name: item.name,
       price: item.price,
       color: item.color,
-      weight: item.weight
+      weight: item.weight,
     });
 
     if (editFormRef.current) {
-      editFormRef.current.scrollIntoView({ behavior: "smooth" });
+      editFormRef.current.scrollIntoView({ behavior: "smooth" }); //qs
     }
   }
 
@@ -117,7 +117,7 @@ export function Product() {
       <Header />
       <div className="d-flex justify-content-between">
         <h2 className="text-secondary">This is the product page</h2>
-        <div className="search" style={{ display: "inline-flex", borderRadius: "10px" ,padding:"20PX" }}>
+        <div className="search" style={{ display: "inline-flex", borderRadius: "8px" ,padding:"20PX" }}>
           <input
             className="input"
             type="search"

@@ -7,6 +7,7 @@ function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [cPassword, setcPassword] =useState('');
   const navigate = useNavigate();
 
   useEffect(()=>{
@@ -93,6 +94,7 @@ function Register() {
             <label htmlFor='password' className='form-label'>
               Password
             </label>
+
             <input
               type='password'
               id='password'
@@ -101,8 +103,30 @@ function Register() {
               className='form-control'
               placeholder='Enter Your Password'
             />
+            <div className='mb-3'>
             <div id='emailHelp' className='form-text'>
               Password should be alpha-numeric
+            </div>
+           
+            </div>
+            
+            
+            <label htmlFor='confirm password' className='form-label'>
+               Confirm Password
+            </label>
+            <input
+              type='confirm password'
+              id='password'
+              value={password}
+              onChange={handlePassword}
+              className='form-control'
+              placeholder='Confirm Password'
+            />
+            <div className='mb-3'>
+            <div id='emailHelp' className='form-text'>
+              Password should be alpha-numeric
+            </div>
+           
             </div>
           </div>
           <div>

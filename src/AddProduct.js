@@ -38,7 +38,7 @@ export function AddProduct(){
             }
       
             const data = await response.json();
-            console.log('Registration Successful:', data);
+            console.log('Registration Successful:', data); //qs
             change('/product');  //qs
             //navigate('/login'); 
           } catch (error) {
